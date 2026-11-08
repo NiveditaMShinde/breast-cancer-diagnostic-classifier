@@ -131,9 +131,13 @@ if uploaded_file is not None:
             y_test = df.iloc[:, -1]
             X_test = df.iloc[:, :-1]
 
-        # Standardize features using the pre-fit scaler artifact
+        # Standardize features using the pre-fit scaler artifact if applicable
         scaler = load_scaler()
-        X_test_scaled = scaler.transform(X_test)
+        if hasattr(scaler, "transform"):
+            X_test_scaled = scaler.transform(X_test)
+        else:
+            # If scaler artifact is already an array or not a transformer, use X_test directly
+            X_test_scaled = np.array(X_test)
 
         # Load selected model and run inference
         model = load_model(MODEL_FILES[selected_model_name])
