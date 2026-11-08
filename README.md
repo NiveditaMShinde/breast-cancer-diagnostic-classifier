@@ -55,7 +55,7 @@ The evaluation metrics calculated on the held-out test dataset (`test_data.csv`)
 | **KNN** | Delivered strong performance (Accuracy: 95.61%, AUC: 0.9788, MCC: 0.9054). Standard scaling was essential to prevent features with larger absolute magnitudes from dominating Euclidean distance calculations. |
 | **Naive Bayes** | Maintained solid discrimination with an AUC of 0.9878 despite the naive class-conditional independence assumption, demonstrating that Gaussian approximations model the distribution of cell measurements reasonably well. |
 | **Support Vector Machine** | Tied for the highest Accuracy (98.25%), F1 Score (0.9861), and MCC (0.9623). The soft-margin RBF kernel established an effective non-linear separation boundary between malignant and benign tumor profiles. |
-| **Overall, Winner for your dataset?** | **Logistic Regression** is the overall winner for this dataset. In addition to tying for the best Accuracy (98.25%), F1 (0.9861), and MCC (0.9623), it achieved the highest AUC (0.9954) while providing superior computational efficiency and direct linear interpretability. |
+| **Overall, Winner for my dataset?** | **Logistic Regression** is the overall winner for this dataset. In addition to tying for the best Accuracy (98.25%), F1 (0.9861), and MCC (0.9623), it achieved the highest AUC (0.9954) while providing superior computational efficiency and direct linear interpretability. |
 
 ---
 
