@@ -15,6 +15,7 @@ st.set_page_config(page_title="Breast Cancer Diagnostic Classifier", layout="wid
 
 st.title("Breast Cancer Wisconsin (Diagnostic) — Model Benchmark")
 st.markdown("Interactive demonstration of 5 trained classification models evaluated on held-out test data without retraining.")
+st.caption("Developed by: Nivedita Shinde")
 
 # Model file mappings
 MODEL_FILES = {
