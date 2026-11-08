@@ -24,8 +24,8 @@ The objective of this assignment is to develop, evaluate, and benchmark five dis
 ---
 
 ## c. Github Repository Link
-* **GitHub Repository Link:** [INSERT YOUR GITHUB REPOSITORY LINK HERE]
-* **Live Streamlit App Link:** [INSERT YOUR STREAMLIT COMMUNITY CLOUD APP LINK HERE]
+* **GitHub Repository Link:** https://github.com/NiveditaMShinde/breast-cancer-diagnostic-classifier
+* **Live Streamlit App Link:** https://breast-cancer-diagnostic-classifier-5mymsve5ftbivkwqqkbatr.streamlit.app/
 
 ---
 
@@ -66,7 +66,7 @@ The evaluation metrics calculated on the held-out test dataset (`test_data.csv`)
 ├── requirements.txt                   # Deployment dependencies
 ├── README.md                          # Mandatory project documentation and metrics
 ├── test_data.csv                      # Held-out 20% test dataset with 'target' column
-├── 2025AK05498_ML_Assignment2.ipynb   # Complete model training and evaluation notebook
+├── breast_cancer_classifier.ipynb     # Complete model training and evaluation notebook
 └── model/                             # Serialized trained model and scaler artifacts
     ├── scaler.pkl
     ├── logistic_regression.pkl
